@@ -13,3 +13,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/gatewaydemo
     username: postgres
     password: passwordTest1!
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
