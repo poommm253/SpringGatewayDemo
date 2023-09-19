@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  application.name: user-service
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gatewaydemo
+    username: postgres
+    password: passwordTest1!
